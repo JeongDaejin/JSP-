@@ -1,0 +1,14 @@
+import javax.servlet.*;
+import javax.servlet.http.*;
+import java.io.*;
+import java.util.Calendar;
+
+public class CalServlet extends HttpServlet {
+										// 요청처리 						 응답처리
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        
+    do_post(request.authenticate(response));
+    }
+    
+    
+}

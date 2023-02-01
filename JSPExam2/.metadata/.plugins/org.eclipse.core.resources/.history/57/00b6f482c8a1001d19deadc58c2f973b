@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@ page import="java.util.Calendar" %>
+<!--함수 import 부분  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+
+<title>Insert title here</title>
+</head>
+
+<body>
+
+<header>
+<h2 style="text-align: center">계산기</h2>
+</header>
+
+<h1> 계산기</h1>
+<form action="">
+<input type="text">
+<select name="clar">
+                        <option value="01">1</option>
+                        <option value="02">2</option>
+                        <option value="03">3</option>
+                        <option value="04">4</option>
+                       
+                    </select>
+</form>
+</body>
+</html>

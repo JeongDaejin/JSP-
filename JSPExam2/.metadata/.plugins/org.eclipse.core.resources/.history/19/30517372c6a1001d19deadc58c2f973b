@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@ page import="java.util.Calendar" %>
+<!--함수 import 부분  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+
+<%
+Calendar c =Calendar.getInstance();
+int hour=c.get(Calendar.HOUR_OF_DAY);
+int minute=c.get(Calendar.MINUTE);
+int second=c.get(Calendar.SECOND);
+%>
+
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+
+<title>Insert title here</title>
+</head>
+<body>
+<header>
+<h2 style="text-align: center">계산기</h2>
+</header>
+<h1> 현재 시간은 <%=hour %>시 <%=minute %>분 <%=second %>초 입니다.</h1>
+</body>
+</html>

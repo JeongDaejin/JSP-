@@ -1,0 +1,32 @@
+
+public class Calculator {
+	
+	int num1;
+	int num2;
+	char Oper;
+	
+	public Calcu(){
+		
+	}
+	
+	
+	public float ca(int num1, int num2, char Oper) {
+		float result=0;
+		switch(Oper) {
+		case'+':
+			result=num1+num2;
+			break;
+		case'-':
+			result=num1-num2;
+			break;
+		case'*':
+			result=num1*num2;
+			break;
+		case'/':
+			result=(float)num1/(float)num2;
+			break;
+			default : System.exit(0);
+		}
+		return result;
+	}
+}

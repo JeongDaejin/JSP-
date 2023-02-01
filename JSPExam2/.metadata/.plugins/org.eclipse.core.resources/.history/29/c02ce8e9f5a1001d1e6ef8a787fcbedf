@@ -1,0 +1,49 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+    <%@ page import="java.util.Calendar" %>
+<!DOCTYPE html>
+
+
+<%
+Calendar c =Calendar.getInstance();
+int hour=c.get(Calendar.HOUR_OF_DAY);
+int minute=c.get(Calendar.MINUTE);
+int second=c.get(Calendar.SECOND);
+%>
+<html>
+<head>
+<title>구구단</title>
+</head>
+<body>
+<TABLE border="1">
+
+<% for(int i=0; i<10;i++){
+	%>
+	<tr>
+	<% for(int j=1; j<10; j++){
+		
+		%>
+		<% if(i==0 && j==1){%>
+			<td></td>
+			<% }%>
+		<% else if (i==1){ %>
+			<td><%=i %>단</td>
+			}%>
+			<%-- <% if(i==0){%>
+			<td><%=j %>단</td> --%>
+		<td style="width: 200pt;"><%=j %>x<%=i %>=<%=i*j %></td>
+<% 
+	}
+	%>
+	</tr>
+	<% 
+} %>
+
+</TABLE>
+<%-- <h1>현재시간 <%=hour %>시 <%=minute %>분 <%=second %>초</h1>
+<%if(hour>=12){ %>
+<h2>오후 입니다.</h2>
+<%} else { %>
+<h2>오전 입니</h2> --%>
+</body>
+</html>
