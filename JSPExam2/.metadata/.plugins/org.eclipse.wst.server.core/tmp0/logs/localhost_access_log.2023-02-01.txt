@@ -250,3 +250,12 @@
 0:0:0:0:0:0:0:1 - - [01/Feb/2023:16:38:10 +0900] "GET /ServletTest/template.jsp?Page=bestitem.jsp HTTP/1.1" 200 1186
 0:0:0:0:0:0:0:1 - - [01/Feb/2023:16:38:11 +0900] "GET /ServletTest/template.jsp?Page=newitem.jsp HTTP/1.1" 200 1184
 0:0:0:0:0:0:0:1 - - [01/Feb/2023:16:38:11 +0900] "GET /ServletTest/template.jsp?Page=bestitem.jsp HTTP/1.1" 200 1186
+127.0.0.1 - - [01/Feb/2023:18:58:51 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [01/Feb/2023:18:58:57 +0900] "GET /ServletTest/Calc.jsp HTTP/1.1" 200 773
+0:0:0:0:0:0:0:1 - - [01/Feb/2023:18:59:00 +0900] "GET /ServletTest/Calc.jspdsad HTTP/1.1" 200 150
+0:0:0:0:0:0:0:1 - - [01/Feb/2023:18:59:27 +0900] "GET /ServletTest/404error.jsp HTTP/1.1" 200 187
+0:0:0:0:0:0:0:1 - - [01/Feb/2023:19:01:18 +0900] "GET /ServletTest/404error.jsp HTTP/1.1" 200 187
+0:0:0:0:0:0:0:1 - - [01/Feb/2023:19:01:25 +0900] "GET /ServletTest/404error.jsdsadw HTTP/1.1" 200 187
+0:0:0:0:0:0:0:1 - - [01/Feb/2023:19:02:17 +0900] "GET /ServletTest/404error.jsp HTTP/1.1" 200 203
+0:0:0:0:0:0:0:1 - - [01/Feb/2023:19:02:32 +0900] "GET /ServletTest/404error.jsp HTTP/1.1" 200 241
+0:0:0:0:0:0:0:1 - - [01/Feb/2023:19:03:09 +0900] "GET /ServletTest/404error.jsp HTTP/1.1" 200 241

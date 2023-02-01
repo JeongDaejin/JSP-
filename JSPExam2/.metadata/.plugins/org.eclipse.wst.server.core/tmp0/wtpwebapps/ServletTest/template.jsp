@@ -23,12 +23,16 @@ String item = request.getParameter("Page");
 <tr >
 <td colspan="2" style="text-align: left"><%@ include file="top.jsp" %></td>
 </tr>
+
 <tr>
+
 <td style="width:200px"><%@ include file="left.jsp" %><br>
 </td>
+
 <td>
 	<jsp:include page="<%=item %>" /><br>
 </td>
+
 </tr>
 <tr>
 <td colspan="2"><%@ include file="bottom.jsp" %></td>
